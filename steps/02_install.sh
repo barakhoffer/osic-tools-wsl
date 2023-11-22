@@ -35,3 +35,4 @@ cat /headless/.bashrc >> /home/$NEW_USER/.bashrc
 cp -r /headless/.gaw /home/$NEW_USER
 cp -r /headless/.klayout /home/$NEW_USER
 cp -r /headless/.spiceinit /home/$NEW_USER
+chown -R $NEW_USER:$NEW_USER /home/$NEW_USER
