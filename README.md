@@ -7,6 +7,7 @@ Script to download osic-tools docker image and run it directly in wsl (without d
 3. No need for docker desktop (run docker inside wsl if needed)
 
 ### Prerequisites:
+- git
 - go (for compiling undocker.exe)
 
 ### Usage
